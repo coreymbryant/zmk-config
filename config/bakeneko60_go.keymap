@@ -11,11 +11,11 @@
 
 / {
     macros {
-        cmp0: cmp_swtch {
+        cmp0: cmp0 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&bt BT_SEL 0 &to 0>;
-            label = "CMP_SWTCH";
+            label = "CMP0";
         };
 
         cmp1: cmp1 {
